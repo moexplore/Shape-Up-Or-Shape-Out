@@ -1,0 +1,56 @@
+html {
+    box-sizing: border-box;
+}
+
+label, input {
+    
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 30rem;    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid blue;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#shape__panel {
+    display: flex;
+    position: relative;
+    overflow: auto;
+    height: 600px;
+    width: 600px;
+    border: 5px solid green;
+    margin-left: 10px;
+    
+}
+
+.side__panel {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 600px;
+    border: 5px solid rgb(199, 156, 40);
+    
+}
+
+.display__panels {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .triangle {
+    background: linear-gradient(to bottom right, #fff 0%, #fff 50%, yellow 50%, yellow 100%);
+} */
+
+/* .shape {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black
+} */

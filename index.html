@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shape Up Or Shape Out</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <form action="">
+        <div class="rectangle">
+            <label for="rectangle">Rectangle</label>
+            <input type="text" name="rectanglewidth" id="rectanglewidth" placeholder="Rectangle Width px">
+            <input type="text" name="rectangleheight" id="rectangleheight" placeholder="Rectangle Height px">
+            <button class = 'btn-primary' id ='rectbutton' type='button'>Add Rectangle</button>
+        </div>
+
+        <div class="square">
+            <label for="square">Square</label>
+            <input type="text" name="squareside" id="squareside" placeholder="Side Length of the Square px">
+            <button id ='sqbutton' type='button'>Add Square</button>
+        </div>
+
+        <div class="circle">
+            <label for="Circle">Circle</label>
+            <input type="text" name="radius" id="radius" placeholder="Radius px">
+            <button id ='circbutton' type='button'>Add Circle</button>
+        </div>
+
+        <div class="tri">
+            <label for="isrighttri">Isosceles Right Triangle</label>
+            <input type="text" name="isoscelesheight" id="isoscelesheight"
+                placeholder="Height of the Isosceles Right Triangle px">
+            <button id ='tributton' type='button'>Add Isosceles Right Triangle</button>
+        </div>
+
+    </form>
+    <div class="display__panels">
+        <div id="shape__panel">
+
+        </div>
+        <div class="side__panel">
+            <label for="shapename">Shape Name</label>
+            <input type="text" id = 'shapename'>
+            <label for="width">Width</label>
+            <input type="text" id = 'widthname'>
+            <label for="Height">Height</label>
+            <input type="text" id = 'heightname'>
+            <label for="Radius">Radius</label>
+            <input type="text" id = 'radiusname'>
+            <label for="Area">Area</label>
+            <input type="text" id = 'areaname'>
+            <label for="Perimeter">Perimeter</label>
+            <input type="text" id = 'perimetername'>
+        </div>
+    </div>
+
+</body>
+
+</html>
